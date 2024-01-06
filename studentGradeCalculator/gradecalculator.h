@@ -3,6 +3,6 @@
 class GradeCalculator
 {
 public:
-    float read_grade(int& midterm, int& quiz, int& endterm);
-    std::string calculate_letter_grade(float& grade);
+    void calculate_grade(int midterm, int quiz, int endterm, float& grade);
+    std::string calculate_letter_grade(float grade);
 };
