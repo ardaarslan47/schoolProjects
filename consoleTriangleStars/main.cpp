@@ -13,7 +13,7 @@ int main()
     }
     
     cout << endl << endl;
-    spaces = 30;
+    spaces = rows;
     
     StarPrinter c;
     for (counter = 1; counter <= rows ; counter++) 
